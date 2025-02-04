@@ -272,7 +272,6 @@ python-pptx==1.0.2
 pytube==15.0.0
 pytubefix==6.10.2
 pytz==2024.1
-pywin32==304
 pywinpty==2.0.7
 pyxnat==1.6.2
 PyYAML==6.0.1
