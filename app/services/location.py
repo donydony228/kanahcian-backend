@@ -1,0 +1,1 @@
+# 負責 locations 的邏輯
