@@ -10,7 +10,7 @@ import os
 load_dotenv()
 
 # **取得資料庫連線字串**
-DATABASE_URL = os.getenv("DATABASE_URL")
+DATABASE_URL = os.getenv("DATABASE_URL", connect_args={"sslmode": "require"})
 
 # **建立資料庫連線**
 engine = create_engine(DATABASE_URL)
