@@ -2,8 +2,8 @@
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from router import locations
-from database import Base, engine
+from app.router import locations
+from app.database import Base, engine
 
 # **建立資料表**
 Base.metadata.create_all(bind=engine)
