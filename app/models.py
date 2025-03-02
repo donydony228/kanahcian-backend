@@ -54,5 +54,3 @@ class Record(Base):
     location = relationship("Location", back_populates="records")
     villager = relationship("Villager", back_populates="records")
     account = relationship("Account", back_populates="records")
-
-
